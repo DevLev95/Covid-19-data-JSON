@@ -6,7 +6,7 @@ webdriver = "/Users/levon/Documents/coding/temporary_paath/chromedriver"
 
 driver = Chrome(webdriver)
 
-URL = "https://people.sc.fsu.edu/~jburkardt/data/csv/mlb_teams_2012.csv"
+URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 
 driver.get(URL)
 
