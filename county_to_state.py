@@ -126,7 +126,8 @@ for x in all_states:
 
 obj_JSON = json.dumps(export_list)
 
-with open("3-30-daily-states.json", "w") as outfile:
+
+with open("3-30-daily-states2.json", "w") as outfile:
     outfile.write(obj_JSON)
 
 
