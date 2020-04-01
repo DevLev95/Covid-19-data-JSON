@@ -18,17 +18,17 @@ for i in range (0,len(obj_list)):
 #print(obj_list[0][0])
 
 new_china['Province/State'] = ""
-new_china['Country/Region'] = "China"
+new_china['Country/Region'] = "All China"
 new_china['Lat'] = "N/A"
 new_china['Long'] = "N/A"
 
 new_canada['Province/State'] = ""
-new_canada['Country/Region'] = "Canada"
+new_canada['Country/Region'] = "All Canada"
 new_canada['Lat'] = "N/A"
 new_canada['Long'] = "N/A"
 
 new_australia['Province/State'] = ""
-new_australia['Country/Region'] = "Australia"
+new_australia['Country/Region'] = "All Australia"
 new_australia['Lat'] = "N/A"
 new_australia['Long'] = "N/A"
 
@@ -60,7 +60,7 @@ obj.append(new_australia)
 
 obj_JSON = json.dumps(obj)
 
-with open("province_concat2.json", "w") as outfile:
+with open("province_concat3.json", "w") as outfile:
     outfile.write(obj_JSON)
 
 
