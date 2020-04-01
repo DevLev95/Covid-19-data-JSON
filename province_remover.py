@@ -11,7 +11,8 @@ for country in obj:
         obj.remove(country)
 
 
-obj_JSON = json.dumps(new_obj)
+
+obj_JSON = json.dumps(obj)
 
 with open("bug_fix.json", "w") as outfile:
     outfile.write(obj_JSON)
