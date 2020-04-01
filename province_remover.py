@@ -7,11 +7,12 @@ obj = json.loads(data)
 new_obj = []
 
 for country in obj:
-    if not (country["Province/State"]):
-        new_obj.append(country)
+    if not (country["Province/State"] == ""):
+        obj.remove(country)
 
-new_obj_JSON = json.dumps(new_obj)
+
+obj_JSON = json.dumps(new_obj)
 
 with open("clean_data.json", "w") as outfile:
-    outfile.write(new_obj_JSON)
+    outfile.write(obj_JSON)
 
