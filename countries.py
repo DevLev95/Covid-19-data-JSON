@@ -37,6 +37,6 @@ time.sleep(10)
 
 test3 = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div[2]/textarea").get_attribute('value')
 
-with open("covid19_1/22-3/30_countries.json", "w") as outfile:
+with open("covid19_1/22-3/31_countries.json", "w") as outfile:
     outfile.write(test3)
     

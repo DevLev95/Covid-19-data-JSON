@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dbc8bc4-bfa5-4344-935e-516e701f0b4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/province_concat4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-31-20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_countries1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/province_concater.py" beforeDir="false" afterPath="$PROJECT_DIR$/province_concater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries.py" beforeDir="false" afterPath="$PROJECT_DIR$/countries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perDay1.py" beforeDir="false" afterPath="$PROJECT_DIR$/perDay1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

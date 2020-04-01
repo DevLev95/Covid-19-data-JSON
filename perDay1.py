@@ -6,7 +6,9 @@ import itertools
 
 import time
 
-with open('covid19_data.json', 'r') as myfile:
+#with open('covid19_data.json', 'r') as myfile:
+
+with open('3-31-20.json', 'r') as myfile:
     data = myfile.read()
 
 obj = json.loads(data)
@@ -35,5 +37,5 @@ for country in obj:
     data_list.append(new_object)
 data_list_JSON = json.dumps(data_list)
 
-with open("daily_countries2.json", "w") as outfile:
+with open("3-31-daily.json", "w") as outfile:
     outfile.write(data_list_JSON)
