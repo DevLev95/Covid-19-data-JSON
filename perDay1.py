@@ -24,7 +24,7 @@ for country in obj:
         value = list_country[i][1]
         #print(key,value)
         new_object[key] = value
-    for j in range(6,len(list_country)):
+    for j in range(5,len(list_country)):
         old_key = list_country[j][0]
         old_value = list_country[j][1]
 
@@ -35,5 +35,5 @@ for country in obj:
     data_list.append(new_object)
 data_list_JSON = json.dumps(data_list)
 
-with open("perDay2.json", "w") as outfile:
+with open("daily_countries2.json", "w") as outfile:
     outfile.write(data_list_JSON)
