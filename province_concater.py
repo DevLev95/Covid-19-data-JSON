@@ -1,5 +1,5 @@
 import json
-with open('perDay2.json', 'r') as myfile:
+with open('3-31-daily.json', 'r') as myfile:
     data = myfile.read()
 
 obj = json.loads(data)
@@ -60,7 +60,7 @@ obj.append(new_australia)
 
 obj_JSON = json.dumps(obj)
 
-with open("goddamnthis1.json", "w") as outfile:
+with open("3-31-concat-daily.json", "w") as outfile:
     outfile.write(obj_JSON)
 
 
