@@ -13,6 +13,6 @@ for country in obj:
 
 obj_JSON = json.dumps(new_obj)
 
-with open("clean_data.json", "w") as outfile:
+with open("bug_fix.json", "w") as outfile:
     outfile.write(obj_JSON)
 
