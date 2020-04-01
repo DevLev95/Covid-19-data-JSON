@@ -60,7 +60,7 @@ obj.append(new_australia)
 
 obj_JSON = json.dumps(obj)
 
-with open("province_concat.json", "w") as outfile:
+with open("province_concat2.json", "w") as outfile:
     outfile.write(obj_JSON)
 
 
