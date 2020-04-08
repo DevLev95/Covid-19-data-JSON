@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dbc8bc4-bfa5-4344-935e-516e701f0b4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-30-20_counties_pile.json" beforeDir="false" afterPath="$PROJECT_DIR$/3-30-20_counties_pile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-31-20_counties_pile.json" beforeDir="false" afterPath="$PROJECT_DIR$/3-31-20_counties_pile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/countries/USA/usa_updated.json" beforeDir="false" afterPath="$PROJECT_DIR$/countries/USA/usa_updated.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updater_states.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
