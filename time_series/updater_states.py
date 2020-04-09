@@ -10,8 +10,8 @@ import itertools
 
 
 
-today = '4/7/2020'
-yesterday = '4/6/2020'
+today = '4/8/2020'
+yesterday = '4/7/2020'
 
 states_list = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado",
   "Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois",
@@ -43,7 +43,7 @@ for state in states_list:
 
 
 
-with open("daily_data/4-7-20.json", 'r') as myfile:
+with open("daily_data/4-8-20.json", 'r') as myfile:
     data = myfile.read()
 
 daily_object = json.loads(data)
@@ -66,7 +66,7 @@ for county in daily_object:
 
 
 
-with open("./daily_data/4-6-20.json", 'r') as myfile:
+with open("./daily_data/4-7-20.json", 'r') as myfile:
     data1 = myfile.read()
 
 yesterday_object = json.loads(data1)
@@ -93,7 +93,7 @@ for x in all_states:
 
 
 
-with open("./archived_time_series/states_up_to_4-6-20.json", 'r') as myfile:
+with open("./archived_time_series/states_up_to_4-7-20.json", 'r') as myfile:
     data2 = myfile.read()
 
 update_object = json.loads(data2)
@@ -118,8 +118,8 @@ obj_JSON = json.dumps(update_object)
 
 
 
-with open("./time_series_daily_update/states_up_to_4-7-20.json", "w") as outfile:
+with open("./time_series_daily_update/states_up_to_4-8-20.json", "w") as outfile:
     outfile.write(obj_JSON)
 
-with open("./archived_time_series/states_up_to_4-7-20.json", "w") as outfile:
+with open("./archived_time_series/states_up_to_4-8-20.json", "w") as outfile:
     outfile.write(obj_JSON)
