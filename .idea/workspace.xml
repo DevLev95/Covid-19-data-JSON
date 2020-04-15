@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dbc8bc4-bfa5-4344-935e-516e701f0b4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/time_series/archived_time_series/states_up_to_4-14-20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_series/daily_data/4-14-20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_series/time_series_daily_update/states_up_to_4-14-20.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USA_update.json" beforeDir="false" afterPath="$PROJECT_DIR$/USA_update.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_series/up_to_date_states_fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/time_series/up_to_date_states_fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_series/updater_states.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_series/updater_states.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
