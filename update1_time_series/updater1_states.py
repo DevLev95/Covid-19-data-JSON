@@ -10,8 +10,8 @@ import itertools
 
 
 
-today = '4/14/2020'
-yesterday = '4/13/2020'
+today = '4/17/2020'
+yesterday = '4/16/2020'
 
 states_list = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado",
   "Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois",
@@ -34,7 +34,7 @@ for state in states_list:
     all_states[str(str_state)] = state
 
 
-print(all_states)
+
 
 
 # change file to todays data
@@ -43,7 +43,7 @@ print(all_states)
 
 
 
-with open("daily_data/4-14-20.json", 'r') as myfile:
+with open("update1_daily_data/4-17-20.json", 'r') as myfile:
     data = myfile.read()
 
 daily_object = json.loads(data)
@@ -66,7 +66,7 @@ for county in daily_object:
 
 
 
-with open("./daily_data/4-13-20.json", 'r') as myfile:
+with open("./update1_daily_data/4-16-20.json", 'r') as myfile:
     data1 = myfile.read()
 
 yesterday_object = json.loads(data1)
@@ -80,30 +80,30 @@ for county in yesterday_object:
 
 print(all_states)
 
-export_list = []
-
-for x in all_states:
-    export_list.append(all_states[x])
+#all_states is an object containing current days new cases at this point in script
 
 
 
 
-
-# change to yesterdays time_series
-
+#change to yesterdays date
 
 
 
 
-with open("./archived_time_series/states_up_to_4-13-20.json", 'r') as myfile:
+with open("./update1_archived_time_series/states_up_to_4-16-20.json", 'r') as myfile:
     data2 = myfile.read()
 
 update_object = json.loads(data2)
 
-for state_old, state_new in zip(update_object, export_list):
-    add_daily_value = state_new[today]
-    state_old[today] = add_daily_value
+#print(update_object["Alaska"])
 
+for name_of_state in states_list:
+
+    new_state_object = update_object[name_of_state]
+
+    new_state_object[today] = all_states[name_of_state][today]
+
+#update_object["Alabama"][today] =
 
 obj_JSON = json.dumps(update_object)
 
@@ -111,17 +111,19 @@ obj_JSON = json.dumps(update_object)
 
 
 
-
-
-#change both file name to todays update
-
+#change both to todays date
 
 
 
 
 
-with open("./time_series_daily_update/states_up_to_4-14-20.json", "w") as outfile:
+with open("./update1_time_series_daily_update/states_up_to_4-17-20.json", "w") as outfile:
     outfile.write(obj_JSON)
 
-with open("./archived_time_series/states_up_to_4-14-20.json", "w") as outfile:
+with open("./update1_archived_time_series/states_up_to_4-17-20.json", "w") as outfile:
     outfile.write(obj_JSON)
+
+
+
+
+

@@ -34,7 +34,7 @@ for state in states_list:
     all_states[str(str_state)] = state
 
 
-print(all_states)
+
 
 
 # change file to todays data
@@ -80,48 +80,26 @@ for county in yesterday_object:
 
 print(all_states)
 
-export_list = []
+#all_states is an object containing current days new cases at this point in script
 
-for x in all_states:
-    export_list.append(all_states[x])
-
-
-
-
-
-# change to yesterdays time_series
-
-
-
-
-
-with open("./archived_time_series/states_up_to_4-13-20.json", 'r') as myfile:
+with open("./new_json.json", 'r') as myfile:
     data2 = myfile.read()
 
 update_object = json.loads(data2)
 
-for state_old, state_new in zip(update_object, export_list):
-    add_daily_value = state_new[today]
-    state_old[today] = add_daily_value
+#print(update_object["Alaska"])
 
+for name_of_state in states_list:
 
-obj_JSON = json.dumps(update_object)
+    new_state_object = update_object[name_of_state]
 
+    new_state_object[today] = all_states[name_of_state][today]
 
+#update_object["Alabama"][today] =
 
-
-
-
-
-#change both file name to todays update
+print(update_object["Alaska"])
 
 
 
 
 
-
-with open("./time_series_daily_update/states_up_to_4-14-20.json", "w") as outfile:
-    outfile.write(obj_JSON)
-
-with open("./archived_time_series/states_up_to_4-14-20.json", "w") as outfile:
-    outfile.write(obj_JSON)
