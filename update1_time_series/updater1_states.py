@@ -76,7 +76,14 @@ for county in yesterday_object:
     if state_name in states_list:
         access_state = all_states[state_name]
 
-        access_state[today] = access_state[today] - county["Confirmed"]
+        if (access_state[today] - county["Confirmed"]) < -1:
+
+            access_state[today] = access_state[today] - county["Confirmed"]
+
+        else:
+
+            access_state[today] = 0
+
 
 print(all_states)
 
