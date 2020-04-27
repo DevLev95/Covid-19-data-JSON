@@ -29,5 +29,5 @@ with open("4-23-20.csv", "r") as counties:
 
     obj_JSON = json.dumps(county_object)
 
-    with open("./county_data.json", "w") as outfile:
+    with open("county_data.json", "w") as outfile:
         outfile.write(obj_JSON)
