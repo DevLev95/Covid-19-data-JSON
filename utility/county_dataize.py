@@ -18,10 +18,8 @@ with open("4-23-20.csv", "r") as counties:
 
             # set up value which is an array
             county_fatality_series = []
-            confirmed = row["Confirmed"]
             deaths = row["Deaths"]
             active = row["Active"]
-            county_fatality_series.append(confirmed)
             county_fatality_series.append(deaths)
             county_fatality_series.append(active)
 

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dbc8bc4-bfa5-4344-935e-516e701f0b4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/update1_time_series/update1_counties/dropdown_county.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update1_time_series/update1_counties/dropdown_county_labels_WORKING.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update1_time_series/utility/4-23-20.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update1_time_series/utility/county_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update1_time_series/utility/county_dataize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update1_time_series/utility/county_router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update1_time_series/utility/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utility/county_dataize.py" beforeDir="false" afterPath="$PROJECT_DIR$/utility/county_dataize.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +29,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/update1_time_series" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/update0_time_series" />
+      <recent name="$PROJECT_DIR$/time_series" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/update1_time_series" />
-      <recent name="$PROJECT_DIR$/time_series" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/update0_time_series" />
       <recent name="$PROJECT_DIR$/time_series" />
       <recent name="$PROJECT_DIR$" />
     </key>
