@@ -16,6 +16,7 @@ with open("4-23-20.csv", "r") as counties:
             comb_key = row["Combined_Key"]
             comb_key = re.sub(', US','',comb_key)
 
+
             # set up value which is an array
             county_fatality_series = []
             deaths = row["Deaths"]
