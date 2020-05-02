@@ -1,0 +1,56 @@
+<Route path="/Alabama"render={(props) => <ChartSelectorStates info="Alabama" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Alaska"render={(props) => <ChartSelectorStates info="Alaska" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/American Samoa"render={(props) => <ChartSelectorStates info="American Samoa" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Arizona"render={(props) => <ChartSelectorStates info="Arizona" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Arkansas"render={(props) => <ChartSelectorStates info="Arkansas" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/California"render={(props) => <ChartSelectorStates info="California" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Colorado"render={(props) => <ChartSelectorStates info="Colorado" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Connecticut"render={(props) => <ChartSelectorStates info="Connecticut" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Delaware"render={(props) => <ChartSelectorStates info="Delaware" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/District of Colombia"render={(props) => <ChartSelectorStates info="District of Colombia" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Florida"render={(props) => <ChartSelectorStates info="Florida" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Georgia"render={(props) => <ChartSelectorStates info="Georgia" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Guam"render={(props) => <ChartSelectorStates info="Guam" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Hawaii"render={(props) => <ChartSelectorStates info="Hawaii" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Idaho"render={(props) => <ChartSelectorStates info="Idaho" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Illinois"render={(props) => <ChartSelectorStates info="Illinois" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Indiana"render={(props) => <ChartSelectorStates info="Indiana" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Iowa"render={(props) => <ChartSelectorStates info="Iowa" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Kansas"render={(props) => <ChartSelectorStates info="Kansas" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Kentucky"render={(props) => <ChartSelectorStates info="Kentucky" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Louisiana"render={(props) => <ChartSelectorStates info="Louisiana" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Maine"render={(props) => <ChartSelectorStates info="Maine" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Maryland"render={(props) => <ChartSelectorStates info="Maryland" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Massachusetts"render={(props) => <ChartSelectorStates info="Massachusetts" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Michigan"render={(props) => <ChartSelectorStates info="Michigan" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Minnesota"render={(props) => <ChartSelectorStates info="Minnesota" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Mississippi"render={(props) => <ChartSelectorStates info="Mississippi" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Missouri"render={(props) => <ChartSelectorStates info="Missouri" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Montana"render={(props) => <ChartSelectorStates info="Montana" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Nebraska"render={(props) => <ChartSelectorStates info="Nebraska" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Nevada"render={(props) => <ChartSelectorStates info="Nevada" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/New Hampshire"render={(props) => <ChartSelectorStates info="New Hampshire" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/New Jersey"render={(props) => <ChartSelectorStates info="New Jersey" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/New Mexico"render={(props) => <ChartSelectorStates info="New Mexico" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/New York"render={(props) => <ChartSelectorStates info="New York" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/North Carolina"render={(props) => <ChartSelectorStates info="North Carolina" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/North Dakota"render={(props) => <ChartSelectorStates info="North Dakota" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Northern Mariana Islands"render={(props) => <ChartSelectorStates info="Northern Mariana Islands" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Ohio"render={(props) => <ChartSelectorStates info="Ohio" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Oklahoma"render={(props) => <ChartSelectorStates info="Oklahoma" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Oregon"render={(props) => <ChartSelectorStates info="Oregon" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Pennsylvania"render={(props) => <ChartSelectorStates info="Pennsylvania" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Puerto Rico"render={(props) => <ChartSelectorStates info="Puerto Rico" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Rhode Island"render={(props) => <ChartSelectorStates info="Rhode Island" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/South Carolina"render={(props) => <ChartSelectorStates info="South Carolina" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/South Dakota"render={(props) => <ChartSelectorStates info="South Dakota" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Tennessee"render={(props) => <ChartSelectorStates info="Tennessee" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Texas"render={(props) => <ChartSelectorStates info="Texas" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Utah"render={(props) => <ChartSelectorStates info="Utah" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Virgin Islands"render={(props) => <ChartSelectorStates info="Virgin Islands" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Vermont"render={(props) => <ChartSelectorStates info="Vermont" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Virginia"render={(props) => <ChartSelectorStates info="Virginia" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Washington"render={(props) => <ChartSelectorStates info="Washington" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/West Virginia"render={(props) => <ChartSelectorStates info="West Virginia" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Wisconsin"render={(props) => <ChartSelectorStates info="Wisconsin" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
+<Route path="/Wyoming"render={(props) => <ChartSelectorStates info="Wyoming" chart_type={this.state.selected_chart_type} isAuthed={true} />}/>
