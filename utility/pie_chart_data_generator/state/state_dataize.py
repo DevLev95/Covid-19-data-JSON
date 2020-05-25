@@ -15,7 +15,7 @@ webdriver = "/Users/levon/Documents/coding/temporary_paath/chromedriver"
 
 driver = Chrome(webdriver)
 
-URL = "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#cite_note-97"
+URL = "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_United_States"
 
 driver.get(URL)
 
@@ -35,10 +35,11 @@ for i in range(1,57):
 
         time.sleep(1)
 
+
         #grabs text out of element, equivalent to text()  this is a not a for loop that cycles through the states
         for value in element:
             state_series.append(value.text)
-
+            print(value.text)
     #state_name = states_list[i-1]
     #states_dict[state_name] = state_series
                 #print(cases, states_list[i-1], i)
