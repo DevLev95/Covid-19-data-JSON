@@ -5,6 +5,9 @@ import json
 
 # manually add USA stats to stat_data.json after running this script
 
+# then manually remove commas and weird chars
+
+#just try to  write a add a module that gets rid of this stuff sometime soon
 
 states_list = ["Alabama","Alaska","American Samoa","Arizona","Arkansas","California","Colorado",
   "Connecticut","Delaware","District of Colombia","Florida","Georgia","Guam","Hawaii","Idaho","Illinois",
