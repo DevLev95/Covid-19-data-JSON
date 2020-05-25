@@ -10,11 +10,11 @@ import itertools
 
 
 
-today = '5/3/2020'
-today_token = '5-3-20.json'
+today = '5/24/2020'
+today_token = '5-24-20.json'
 
-yesterday = '5/2/2020'
-yesterday_token = '5-2-20.json'
+yesterday = '5/23/2020'
+yesterday_token = '5-23-20.json'
 
 states_list = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado",
   "Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois",
