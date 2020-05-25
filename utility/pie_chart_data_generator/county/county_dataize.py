@@ -4,7 +4,7 @@ import csv
 import re
 
 
-with open("4-23-20.csv", "r") as counties:
+with open("input_data/5-24-20.csv", "r") as counties:
 
     reader = csv.DictReader(counties)
 
