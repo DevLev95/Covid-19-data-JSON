@@ -2,6 +2,10 @@ from selenium.webdriver import Chrome
 import time
 import json
 
+
+# manually add USA stats to stat_data.json after running this script
+
+
 states_list = ["Alabama","Alaska","American Samoa","Arizona","Arkansas","California","Colorado",
   "Connecticut","Delaware","District of Colombia","Florida","Georgia","Guam","Hawaii","Idaho","Illinois",
   "Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland",
