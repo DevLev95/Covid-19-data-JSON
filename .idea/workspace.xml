@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5dbc8bc4-bfa5-4344-935e-516e701f0b4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update1_time_series/USA_update1.json" beforeDir="false" afterPath="$PROJECT_DIR$/update1_time_series/USA_update1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/pie_chart_data_generator/state/state_dataize.py" beforeDir="false" afterPath="$PROJECT_DIR$/utility/pie_chart_data_generator/state/state_dataize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utility/pie_chart_data_generator/state/state_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/utility/pie_chart_data_generator/state/state_data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="436" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590647018328">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="436" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.824@0.23.1440.824" timestamp="1590647018328" />
     <state x="452" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587262785797">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
